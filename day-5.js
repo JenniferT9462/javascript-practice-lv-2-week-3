@@ -22,6 +22,9 @@ const songs = [];
 
 // Example: 
 songs.push(createSong('Yesterday', 'The Beatles', 1965));
+songs.push(createSong('What a Wonderful World', 'Louis Armstrong', 1967));
+songs.push(createSong('Over the Rainbow', 'Judy Garland', 1939));
+songs.push(createSong('Eye of the Tiger', 'Survivor', 1982));
 
 console.table(songs);
 
@@ -35,7 +38,10 @@ console.log("\nExample 2: Accessing Objects in the Array");
 
 // Example
 console.log("First song: Title = " + songs[0].title + ", Artist = " + songs[0].artist);
+console.log("First song: Title = " + songs[1].title + ", Artist = " + songs[1].artist);
+console.log("First song: Title = " + songs[2].title + ", Artist = " + songs[2].artist);
 // TODO: Access and log the details of the rest of the songs in the array
+console.log("First song: Title = " + songs[3].title + ", Artist = " + songs[3].artist);
 
 console.log("\nExample 3: Adding More Songs");
 
@@ -47,6 +53,9 @@ console.log("\nExample 3: Adding More Songs");
 songs.push(createSong('My Way', 'Frank Sinatra', 1969));
 songs.push(createSong('Imagine', 'John Lennon', 1971));
 // TODO 3: Add two songs more of your own
+songs.push(createSong('Sharks', 'Imagine Dragons', 2022));
+songs.push(createSong('I Wanna Be Your Slave', 'Maneskin', 2021));
+songs.push(createSong('Free Bird', 'Lynyrd Skynyrd', 1973));
 
 console.table(songs);
 
@@ -64,6 +73,10 @@ console.log("Fourth song: Title = " + songs[3].title + ", Artist = " + songs[3].
 // TODO 4:
 // Modify the details of the fifth song
 // - Artist and year of the fifth song
+songs[4].title = "Thunder";
+songs[4].artist = "Imagine Dragons";
+
+console.log("Fifth song: Title = " + songs[4].title + ", Artist = " + songs[4].artist);
 
 
 
@@ -80,4 +93,8 @@ songs[0] = createSong('Eleanor Rigby', 'The Beatles', 1966);
 console.log("Updated first song: Title = " + songs[0].title + ", Artist = " + songs[0].artist + ", Year = " + songs[0].year);
 
 // TODO 5: Completely Replace the details of the second song.
+songs[1] = createSong('Lovely Day', 'Bill Withers',1977);
+console.log("Updated second song: Title = " + songs[1].title + ", Artist = " + songs[1].artist + ", Year = " + songs[1].year);
 
+
+console.table(songs);
