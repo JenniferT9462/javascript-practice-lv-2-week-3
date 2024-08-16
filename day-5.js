@@ -54,7 +54,7 @@ songs.push(createSong('My Way', 'Frank Sinatra', 1969));
 songs.push(createSong('Imagine', 'John Lennon', 1971));
 // TODO 3: Add two songs more of your own
 songs.push(createSong('Sharks', 'Imagine Dragons', 2022));
-songs.push(createSong('I Wanna Be Your Slave', 'Maneskin', 2021));
+songs.push(createSong('Clint Eastwood', 'Gorillazs', 2001));
 songs.push(createSong('Free Bird', 'Lynyrd Skynyrd', 1973));
 
 console.table(songs);
@@ -93,7 +93,7 @@ songs[0] = createSong('Eleanor Rigby', 'The Beatles', 1966);
 console.log("Updated first song: Title = " + songs[0].title + ", Artist = " + songs[0].artist + ", Year = " + songs[0].year);
 
 // TODO 5: Completely Replace the details of the second song.
-songs[1] = createSong('Lovely Day', 'Bill Withers',1977);
+songs[1] = createSong('Lovely Day', 'Bill Withers', 1977);
 console.log("Updated second song: Title = " + songs[1].title + ", Artist = " + songs[1].artist + ", Year = " + songs[1].year);
 
 
